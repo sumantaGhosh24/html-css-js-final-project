@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: url("https://placehold.co/600x400") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow-x: hidden;
+}
+.container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.wrapper {
+  text-align: center;
+}
+.wrapper__heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.wrapper__heading,
+.wrapper__paragraph {
+  color: #000;
+}
+.wrapper__paragraph {
+  font-size: 1.2rem;
+  margin: 2.5rem auto 2.5rem auto;
+  width: 80%;
+}
+.wrapper .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .boxes .box {
+  background: #fff;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.wrapper .boxes .box span {
+  color: 3b6281b;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.wrapper .boxes .box p {
+  color: #000;
+  width: 100%;
+}

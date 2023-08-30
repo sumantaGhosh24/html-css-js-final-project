@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="author" content="sumanta ghosh">
+    <meta name="description" content="best diving service in india">
+    <meta name="keywords" content="diving, diving training">
+
+    <!--==================== favicon ====================-->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="./assets/images/site.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+
+    <!--==================== canonical ====================-->
+    <link rel="canonical" href="http://example.com/home">
+
+    <!--==================== fontawesome cdn ====================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!--==================== google fonts ====================-->
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--==================== custom css ====================-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>DIVING | Home Page</title>
+</head>
+
+<body>
+    <!--==================== start navbar section ====================-->
+    <header class="header bg-blue-700 box">
+        <nav class="h-20 w-full flex items-center justify-between container px-10 mx-auto z-50">
+            <div>
+                <img src="" data-src="./assets/images/favicon-32x32.png" alt="logo"
+                    class="h-10 w-10 rounded-xl lg:h-16 lg:w-16">
+            </div>
+            <ul
+                class="absolute top-20 left-0 w-full h-screen bg-blue-600 flex items-center justify-between flex-col p-20 invisible opacity-0 transition-all duration-700 ease-in-out z-50 lg:justify-around lg:visible lg:opacity-100 lg:flex-row lg:relative lg:top-0 lg:left-0 lg:h-auto lg:p-0 lg:bg-transparent">
+                <li><a href="#home" class="text-lg font-medium capitalize text-white hover:text-gray-400">home</a></li>
+                <li><a href="#destination"
+                        class="text-lg font-medium capitalize text-white hover:text-gray-400">destination</a></li>
+                <li><a href="#feature" class="text-lg font-medium capitalize text-white hover:text-gray-400">feature</a>
+                </li>
+                <li><a href="#gallery" class="text-lg font-medium capitalize text-white hover:text-gray-400">gallery</a>
+                </li>
+                <li><a href="#team" class="text-lg font-medium capitalize text-white hover:text-gray-400">team</a></li>
+                <li><a href="#blog" class="text-lg font-medium capitalize text-white hover:text-gray-400">blog</a></li>
+            </ul>
+            <button class="btn">Login</button>
+            <i class="fa fa-bars text-white text-3xl hover:cursor-pointer navbar__toggle lg:hidden"
+                aria-hidden="true"></i>
+        </nav>
+    </header>
+    <!--==================== end navbar section ====================-->
+
+    <!--==================== start hero section ====================-->
+    <div id="home" class="hero -z-50 box">
+        <div class="carousel relative rounded overflow-hidden shadow-xl">
+            <div class="carousel-inner relative overflow-hidden w-full">
+                <!--Slide 1-->
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                    checked="checked">
+                <div class="h-hero carousel-item absolute opacity-0 bg-center"
+                    style="background-image: url(./assets/images/hero-1.jpg); background-repeat: no-repeat; background-size: cover;">
+
+                </div>
+                <label for="carousel-3"
+                    class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto justify-center content-center"><i
+                        class="fas fa-angle-left mt-3"></i></label>
+                <label for="carousel-2"
+                    class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                        class="fas fa-angle-right mt-3"></i></label>
+
+                <!--Slide 2-->
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="h-hero carousel-item absolute opacity-0 bg-center"
+                    style="background-image: url(./assets/images/hero-2.jpg); background-repeat: no-repeat; background-size: cover;">
+                </div>
+                <label for="carousel-1"
+                    class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                        class="fas fa-angle-left mt-3"></i></label>
+                <label for="carousel-3"
+                    class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                        class="fas fa-angle-right mt-3"></i></label>
+
+                <!--Slide 3-->
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="h-hero carousel-item absolute opacity-0"
+                    style="background-image: url(./assets/images/hero-3.jpg); background-repeat: no-repeat; background-size: cover;">
+                </div>
+                <label for="carousel-2"
+                    class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                        class="fas fa-angle-left mt-3"></i></label>
+                <label for="carousel-1"
+                    class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                        class="fas fa-angle-right mt-3"></i></label>
+
+                <!-- Add additional indicators for each slide-->
+                <ol class="carousel-indicators">
+                    <li class="inline-block mr-3">
+                        <label for="carousel-1"
+                            class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                    </li>
+                    <li class="inline-block mr-3">
+                        <label for="carousel-2"
+                            class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                    </li>
+                    <li class="inline-block mr-3">
+                        <label for="carousel-3"
+                            class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                    </li>
+                </ol>
+
+            </div>
+        </div>
+    </div>
+    <!--==================== end hero section ====================-->
+
+    <!--==================== start destination section ====================-->
+    <section id="destination" class="container px-10 mx-auto mt-10 box">
+        <h2 class="text-4xl font-medium text-center capitalize mb-4">our future destination</h2>
+        <p class="text-xl font-light text-center capitalize mb-4 leading-6">Lorem ipsum dolor, sit amet consectetur
+            adipisicing
+            elit.
+            Deserunt doloribus iusto
+            veritatis dolorem eaque
+            impedit aut labore, dolorum quasi accusamus.</p>
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-3/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/destination-1.jpg" alt="destination"
+                    class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Europe</h3>
+                    <h4 class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit.
+                        Iure, nesciunt.</h4>
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-3/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/destination-2.jpg" alt="destination"
+                    class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Africa</h3>
+                    <h4 class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit.
+                        Iure, nesciunt.</h4>
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-3/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/destination-3.jpg" alt="destination"
+                    class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Australia</h3>
+                    <h4 class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit.
+                        Iure, nesciunt.</h4>
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== end destination section ====================-->
+
+    <!--==================== start feature section ====================-->
+    <section id="feature" class="feature container px-10 mx-auto mt-10 rounded box">
+        <div class="flex items-center justify-between flex-wrap p-5">
+            <div class="flex-auto w-2/5 mr-10 mb-5 shadow-2xl rounded-xl p-5 bg-white">
+                <img src="" data-src="./assets/images/feature-1.jpg" alt="feature" class="h-10 w-20 mb-3 rounded-full">
+                <h3 class="text-xl font-medium capitalize mb-3">best equipment</h3>
+                <p class="text-sm font-light leading-6 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempora
+                    quas, praesentium officia laborum
+                    maiores vel.</p>
+            </div>
+            <div class="flex-auto w-2/5 mr-10 mb-5 shadow-2xl rounded-xl p-5 bg-white">
+                <img src="" data-src="./assets/images/feature-2.jpg" alt="feature" class="h-10 w-20 mb-3 rounded-full">
+                <h3 class="text-xl font-medium capitalize mb-3">best places</h3>
+                <p class="text-sm font-light leading-6 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempora
+                    quas, praesentium officia laborum
+                    maiores vel.</p>
+            </div>
+            <div class="flex-auto w-2/5 mr-10 mb-5 shadow-2xl rounded-xl p-5 bg-white">
+                <img src="" data-src="./assets/images/feature-3.jpg" alt="feature" class="h-10 w-20 mb-3 rounded-full">
+                <h3 class="text-xl font-medium capitalize mb-3">100% personal safety</h3>
+                <p class="text-sm font-light leading-6 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempora
+                    quas, praesentium officia laborum
+                    maiores vel.</p>
+            </div>
+            <div class="flex-auto w-2/5 mr-10 mb-5 shadow-2xl rounded-xl p-5 bg-white">
+                <img src="" data-src="./assets/images/feature-4.jpg" alt="feature" class="h-10 w-20 mb-3 rounded-full">
+                <h3 class="text-xl font-medium capitalize mb-3">best instructors</h3>
+                <p class="text-sm font-light leading-6 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempora
+                    quas, praesentium officia laborum
+                    maiores vel.</p>
+            </div>
+        </div>
+    </section>
+    <!--==================== end feature section ====================-->
+
+    <!--==================== start gallery section ====================-->
+    <section id="gallery" class="container px-10 mx-auto mt-10 box">
+        <h2 class="text-4xl font-medium text-center capitalize mb-4">our gallery</h2>
+        <p class="text-xl font-light text-center capitalize mb-4 leading-6">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Suscipit dolorum omnis sapiente ut atque molestias
+            id tenetur magnam voluptatibus, quam eveniet quidem, voluptatum labore veritatis.</p>
+    </section>
+    <div class="container lg:px-32 px-4 py-8 mx-auto items-center mt-3 box">
+        <div class="grid grid-cols-4 grid-rows-4 grid-flow-col gap-2">
+            <div class="w-full row-span-2">
+                <img src="" data-src="./assets/images/destination-1.jpg" alt="gallery"
+                    class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100">
+            </div>
+            <div class="w-full col-span-2 row-span-2">
+                <img src="" data-src="./assets/images/destination-2.jpg" alt="gallery"
+                    class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 ">
+            </div>
+            <div class="w-full ">
+                <img src="" data-src="./assets/images/destination-3.jpg" alt="gallery"
+                    class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 ">
+            </div>
+            <div class="w-full">
+                <img src="" data-src="./assets/images/feature-1.jpg" alt="gallery"
+                    class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 ">
+            </div>
+            <div class="w-full col-span-2 row-span-2">
+                <img src="" data-src="./assets/images/feature-2.jpg" alt="gallery"
+                    class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 ">
+            </div>
+
+            <div class="w-full col-span-2">
+                <img src="" data-src="./assets/images/feature-3.jpg" alt="gallery"
+                    class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 ">
+            </div>
+            <div class="w-full">
+                <img src="" data-src="./assets/images/feature-4.jpg" alt="gallery"
+                    class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 ">
+            </div>
+            <div class="w-full">
+                <img src="" data-src="./assets/images/feature-5.jpg" alt="gallery"
+                    class="inset-0 h-full w-full object-cover object-center rounded opacity-75 hover:opacity-100 ">
+            </div>
+        </div>
+    </div>
+    <!--==================== end gallery section ====================-->
+
+    <!--==================== start testimonial section ====================-->
+    <div class="newsletter box">
+        <section id="newsletter" class="container p-10 mx-auto mt-10 md:px-20 lg:px-40">
+            <div class="w-4/5 mx-auto p-10 bg-yellow-500 rounded-2xl">
+                <h2 class="text-3xl font-bold uppercase mb-4 text-center text-white">get latest news</h2>
+                <h3 class="text-base font-light capitalize mb-4 text-gray-50 text-center">subscribe our newsletter to
+                    get
+                    regular and latest news</h3>
+                <form action="#" class="relative">
+                    <input type="email" name="email" id="email" class="p-3 rounded-xl w-full z-10">
+                    <button class="z-30 absolute right-0 top-0.5 btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <!--==================== end testimonial section ====================-->
+
+    <!--==================== start our team section ====================-->
+    <section id="team" class="container px-10 mx-auto mt-10 box">
+        <h2 class="text-4xl font-medium text-center capitalize mb-4">our team</h2>
+        <p class="text-xl font-light text-center capitalize mb-4 leading-6">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Laudantium, doloremque at sequi, ratione eaque
+            rerum, sunt debitis nemo dolores maxime ipsa illum accusamus laborum reprehenderit.</p>
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="flex-auto w-full mb-5 shadow-lg rounded-xl md:w-2/5 md:mr-5 lg:w-1/5">
+                <img src="" data-src="./assets/images/team-1.jpg" alt="team" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">John Doe</h3>
+                    <h4 class="text-base font-medium capitalize mb-3">Founder & CEO</h4>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Quis, molestias.</p>
+                    <div>
+                        <i
+                            class="fa-brands fa-facebook text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-twitter text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-square-instagram text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-youtube text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-auto w-full mb-5 shadow-lg rounded-xl md:w-2/5 md:mr-5 lg:w-1/5">
+                <img src="" data-src="./assets/images/team-2.jpg" alt="team" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">John Doe</h3>
+                    <h4 class="text-base font-medium capitalize mb-3">Founder & CEO</h4>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Quis, molestias.</p>
+                    <div>
+                        <i
+                            class="fa-brands fa-facebook text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-twitter text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-square-instagram text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-youtube text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-auto w-full mb-5 shadow-lg rounded-xl md:w-2/5 md:mr-5 lg:w-1/5">
+                <img src="" data-src="./assets/images/team-3.jpg" alt="team" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">John Doe</h3>
+                    <h4 class="text-base font-medium capitalize mb-3">Founder & CEO</h4>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Quis, molestias.</p>
+                    <div>
+                        <i
+                            class="fa-brands fa-facebook text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-twitter text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-square-instagram text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-youtube text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-auto w-full mb-5 shadow-lg rounded-xl md:w-2/5 md:mr-5 lg:w-1/5">
+                <img src="" data-src="./assets/images/team-4.jpg" alt="team" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">John Doe</h3>
+                    <h4 class="text-base font-medium capitalize mb-3">Founder & CEO</h4>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Quis, molestias.</p>
+                    <div>
+                        <i
+                            class="fa-brands fa-facebook text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-twitter text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-square-instagram text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                        <i
+                            class="fa-brands fa-youtube text-yellow-500 text-2xl mr-10 lg:mr-2 hover:text-yellow-700"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== end our team section ====================-->
+
+    <!--==================== start blog section ====================-->
+    <section id="blog" class="container px-10 mx-auto mt-10 box">
+        <h2 class="text-4xl font-medium text-center capitalize mb-4">our blog</h2>
+        <p class="text-xl font-light text-center capitalize mb-4 leading-6">Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Minus tempora placeat, voluptatibus iusto odio
+            itaque accusantium perspiciatis quod? Magni, provident.</p>
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="flex-auto w-full mb-5 shadow-lg rounded-xl md:w-2/5 md:mr-5 lg:w-1/5">
+                <img src="" data-src="./assets/images/blog-1.jpg" alt="blog" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Lorem ipsum dolor</h3>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Quo neque architecto perspiciatis quia,
+                        optio repellendus enim minima! Earum, mollitia facilis.</p>
+                    <button class="btn">Know More</button>
+                </div>
+            </div>
+            <div class="flex-auto w-full mb-5 shadow-lg rounded-xl md:w-2/5 md:mr-5 lg:w-1/5">
+                <img src="" data-src="./assets/images/blog-2.jpg" alt="blog" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Lorem ipsum dolor</h3>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Quo neque architecto perspiciatis quia,
+                        optio repellendus enim minima! Earum, mollitia facilis.</p>
+                    <button class="btn">Know More</button>
+                </div>
+            </div>
+            <div class="flex-auto w-full mb-5 shadow-lg rounded-xl md:w-2/5 md:mr-5 lg:w-1/5">
+                <img src="" data-src="./assets/images/blog-3.jpg" alt="blog" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Lorem ipsum dolor</h3>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Quo neque architecto perspiciatis quia,
+                        optio repellendus enim minima! Earum, mollitia facilis.</p>
+                    <button class="btn">Know More</button>
+                </div>
+            </div>
+            <div class="flex-auto w-full mb-5 shadow-lg rounded-xl md:w-2/5 md:mr-5 lg:w-1/5">
+                <img src="" data-src="./assets/images/blog-4.jpg" alt="blog" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Lorem ipsum dolor</h3>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Quo neque architecto perspiciatis quia,
+                        optio repellendus enim minima! Earum, mollitia facilis.</p>
+                    <button class="btn">Know More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== end blog section ====================-->
+
+    <!--==================== start footer section ====================-->
+    <footer class="mt-10 bg-yellow-500 box">
+        <div class="container px-10 mx-auto p-4 flex items-center justify-between flex-wrap text-white">
+            <div class="flex-auto w-full mb-5 md:w-2/5 md:mr-5 lg:w-1/5">
+                <div class="mb-3">
+                    <img src="" data-src="./assets/images/favicon-32x32.png" alt="logo" class="h-10 w-10 rounded-lg">
+                </div>
+                <p class="text-sm font-light leading-6 mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Cum
+                    nisi at atque perspiciatis velit quis.
+                    Aperiam veritatis dolore dolorem nulla consequatur excepturi debitis? Dolore, ducimus.</p>
+                <div>
+                    <i class="fa-brands fa-facebook text-white text-2xl mr-10"></i>
+                    <i class="fa-brands fa-twitter text-white text-2xl mr-10"></i>
+                    <i class="fa-brands fa-square-instagram text-white text-2xl mr-10"></i>
+                    <i class="fa-brands fa-youtube text-white text-2xl mr-10"></i>
+                </div>
+            </div>
+            <div class="flex-auto w-full mb-5 md:w-2/5 md:mr-5 lg:w-1/5">
+                <h2 class="text-xl font-medium capitalize mb-3">Important Link</h2>
+                <ul>
+                    <li class="mb-2"><a href="#home" class="text-sm capitalize">home</a></li>
+                    <li class="mb-2"><a href="#destination" class="text-sm capitalize">destination</a></li>
+                    <li class="mb-2"><a href="#feature" class="text-sm capitalize">feature</a></li>
+                    <li class="mb-2"><a href="#gallery" class="text-sm capitalize">gallery</a></li>
+                    <li class="mb-2"><a href="#team" class="text-sm capitalize">team</a></li>
+                    <li class="mb-2"><a href="#blog" class="text-sm capitalize">blog</a></li>
+                </ul>
+            </div>
+            <div class="flex-auto w-full mb-5 md:w-2/5 md:mr-5 lg:w-1/5">
+                <h2 class="text-xl font-medium capitalize mb-3">Support</h2>
+                <ul>
+                    <li class="mb-2"><a href="#" class="text-sm capitalize">help</a></li>
+                    <li class="mb-2"><a href="#" class="text-sm capitalize">customer cariar</a></li>
+                    <li class="mb-2"><a href="#" class="text-sm capitalize">blog</a></li>
+                    <li class="mb-2"><a href="#" class="text-sm capitalize">locations</a></li>
+                    <li class="mb-2"><a href="#" class="text-sm capitalize">faq</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-yellow-400 text-white text-center p-3 capitalize text-lg">
+        <p>create by sumanta ghosh &copy; 2022 all rights reserved</p>
+    </div>
+    <!--==================== end footer section ====================-->
+
+    <!--==================== start go top section ====================-->
+    <button
+        class="fixed right-10 bottom-28 text-white bg-yellow-600 font-medium rounded-full text-lg p-5 transition-colors duration-500 ease-in-out hover:bg-yellow-700 focus:ring-4 ring-yellow-30 outline-none"
+        id="topBtn">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+    <!--==================== end go top section ====================-->
+
+    <!--==================== add noscript ====================-->
+    <noscript>please enable JavaScript in your website.</noscript>
+
+    <!--==================== custom js ====================-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

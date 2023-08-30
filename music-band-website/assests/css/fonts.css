@@ -1,0 +1,11 @@
+/* font-family: Josefin_Slab; */
+@font-face {
+  font-family: Josefin_Slab;
+  src: url("../fonts/Josefin_Slab/JosefinSlab-Regular.ttf");
+}
+
+/* font-family: Roboto; */
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}

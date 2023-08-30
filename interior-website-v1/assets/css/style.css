@@ -1,0 +1,116 @@
+/*==================== set css variables ====================*/
+:root {
+  --color-1: rgb(201, 132, 54);
+  --color-1-alt: rgb(216, 123, 16);
+}
+
+/*==================== utility classes ====================*/
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.main-btn {
+  background: var(--color-1);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+}
+.main-btn:hover,
+.main-btn:focus {
+  background: var(--color-1-alt);
+  color: rgb(255, 255, 255);
+}
+
+/*==================== navbar section ====================*/
+.navbar {
+  border-bottom: 2px solid var(--color-1);
+}
+.navbar-brand span {
+  color: var(--color-1);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-1);
+}
+
+/*==================== start hero section ====================*/
+.hero-bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*==================== about us section ====================*/
+.about-img img {
+  height: 200px;
+  width: 200px;
+}
+.about-img img:nth-child(2) {
+  transform: translateY(100px);
+}
+
+/*==================== service section ====================*/
+.card[data-num] {
+  position: relative;
+}
+.card[data-num]::before {
+  content: attr(data-num);
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  font-size: 32px;
+  background: var(--color-1);
+  color: rgb(255, 255, 255);
+  top: 10px;
+  left: 10px;
+  text-align: center;
+}
+
+/*==================== footer section ====================*/
+.footer {
+  background-color: var(--color-1);
+}
+.footer-bottom {
+  border-top: 2px solid rgb(255, 255, 255);
+  height: 50px;
+}
+
+/*==================== client section ====================*/
+.client .row .col-md-3 img {
+  height: 200px;
+  width: 100%;
+}
+
+/*==================== go top button section ====================*/
+#topBtn {
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+  padding: 16px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  font-weight: bold;
+  background: var(--color-1);
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease-in-out;
+}
+#topBtn:hover,
+#topBtn:focus {
+  background: var(--color-1-alt);
+}
+
+/*==================== add animation ====================*/
+.box {
+  opacity: 0;
+  transform: translateY(150px);
+  transition: all 0.7s ease-in-out;
+}
+.box.show {
+  opacity: 1;
+  transform: translateY(0);
+}

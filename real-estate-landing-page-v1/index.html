@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="author" content="sumanta ghosh">
+    <meta name="description" content="best real estate service in india">
+    <meta name="keywords" content="real estate, building">
+
+    <!--==================== favicon ====================-->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="./assets/images/site.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+
+    <!--==================== canonical ====================-->
+    <link rel="canonical" href="http://example.com/home">
+
+    <!--==================== fontawesome cdn ====================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!--==================== google fonts ====================-->
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--==================== custom css ====================-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>ESTATE | Home Page</title>
+</head>
+
+<body>
+    <!--==================== start navbar section ====================-->
+    <header class="shadow-2xl">
+        <nav class="h-20 w-full flex items-center justify-between container px-10 mx-auto z-50">
+            <div>
+                <img src="" data-src="./assets/images/favicon-32x32.png" alt="logo"
+                    class="h-10 w-10 rounded-xl lg:h-16 lg:w-16">
+            </div>
+            <ul
+                class="absolute top-20 left-0 w-full h-screen flex items-center justify-between flex-col p-20 invisible opacity-0 transition-all duration-500 ease-in-out z-50 lg:justify-around lg:visible lg:opacity-100 lg:flex-row lg:relative lg:top-0 lg:left-0 lg:h-auto lg:p-0 bg-blue-600 lg:bg-transparent">
+                <li><a href="#home"
+                        class="text-lg font-medium capitalize text-white hover:text-gray-700 lg:text-black">home</a>
+                </li>
+                <li><a href="#popular"
+                        class="text-lg font-medium capitalize text-white hover:text-gray-700 lg:text-black">popular</a>
+                </li>
+                <li><a href="#feature"
+                        class="text-lg font-medium capitalize text-white hover:text-gray-700 lg:text-black">feature</a>
+                </li>
+                <li><a href="#blog"
+                        class="text-lg font-medium capitalize text-white hover:text-gray-700 lg:text-black">blog</a>
+                </li>
+                <li><a href="#contact"
+                        class="text-lg font-medium capitalize text-white hover:text-gray-700 lg:text-black">contact</a>
+                </li>
+            </ul>
+            <button class="btn lg:flex lg:items-center lg:justify-between">login <i
+                    class="fa-solid fa-arrow-right-long ml-5"></i></button>
+            <i class="fa fa-bars text-black text-3xl hover:cursor-pointer navbar__toggle lg:hidden"></i>
+        </nav>
+    </header>
+    <!--==================== end navbar section ====================-->
+
+    <!--==================== start hero section ====================-->
+    <div id="home" class="w-full box">
+        <div class="container px-10 mx-auto mt-5 flex items-center justify-center flex-col lg:flex-row">
+            <div class="mb-5">
+                <h2 class="text-xl uppercase text-blue-500 my-5 font-bold">best in india</h2>
+                <h1 class="text-5xl capitalize my-5 font-bold">find the perfect place for peace of mind</h1>
+                <p class="my-5 text-lg capitalize leading-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Impedit laudantium natus quos nisi? Optio
+                    corrupti, dolorum amet atque expedita voluptate.</p>
+                <button class="btn mb-5">get started <i class="fa-solid fa-arrow-right-long"></i></button>
+                <form action="#" class="my-5 shadow-2xl p-5 rounded-2xl">
+                    <h2 class="text-2xl font-medium capitalize mb-4">search for properties</h2>
+                    <div class="flex items-center justify-between flex-wrap">
+                        <div class="m-3 relative w-2/5">
+                            <input type="text" name="location" id="location" placeholder="location"
+                                class="bg-slate-300 p-2 w-full rounded-lg hover:ring-4 hover:ring-blue-300 border-0 outline-0 focus:bg-transparent">
+                            <i class="fa-solid fa-location-dot absolute right-2 top-3"></i>
+                        </div>
+                        <div class="m-3 relative w-2/5">
+                            <input type="text" name="propertyType" id="propertyType" placeholder="property type"
+                                class="bg-slate-300 p-2 w-full rounded-lg hover:ring-4 hover:ring-blue-300 border-0 outline-0 focus:bg-transparent">
+                            <i class="fa-solid fa-house absolute right-2 top-3"></i>
+                        </div>
+                        <div class="m-3 relative w-2/5">
+                            <input type="text" name="budget" id="budget" placeholder="budget"
+                                class="bg-slate-300 p-2 w-full rounded-lg hover:ring-4 hover:ring-blue-300 border-0 outline-0 focus:bg-transparent">
+                            <i class="fa-solid fa-indian-rupee-sign absolute right-2 top-3"></i>
+                        </div>
+                        <button class="btn m-3">search <i class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                </form>
+            </div>
+            <div class="h-full w-full flex items-center justify-center lg:h-[500px] lg:ml-5">
+                <img src="" data-src="./assets/images/hero.jpg" alt="hero"
+                    class="h-4/5 w-4/5 rounded-3xl mx-auto lg:h-full lg:w-full">
+            </div>
+        </div>
+    </div>
+    <!--==================== end hero section ====================-->
+
+    <!--==================== start our client section ====================-->
+    <section class="container mt-10 px-10 mx-auto box">
+        <h2 class="text-4xl font-medium text-center capitalize mb-4">our clients</h2>
+        <div class="flex items-center justify-between flex-wrap">
+            <img src="" data-src="./assets/images/company-logo-1.jpg" alt="company"
+                class="h-24 w-1/6 shadow-2xl rounded-xl">
+            <img src="" data-src="./assets/images/company-logo-2.png" alt="company"
+                class="h-24 w-1/6 shadow-2xl rounded-xl">
+            <img src="" data-src="./assets/images/company-logo-3.webp" alt="company"
+                class="h-24 w-1/6 shadow-2xl rounded-xl">
+            <img src="" data-src="./assets/images/company-logo-4.webp" alt="company"
+                class="h-24 w-1/6 shadow-2xl rounded-xl">
+            <img src="" data-src="./assets/images/company-logo-5.jpg" alt="company"
+                class="h-24 w-1/6 shadow-2xl rounded-xl">
+        </div>
+    </section>
+    <!--==================== end our client section ====================-->
+
+    <!--==================== start popular properties section ====================-->
+    <section id="popular" class="container px-10 mx-auto mt-10 box">
+        <h3 class="text-lg font-bold uppercase mb-4">&HorizontalLine; popular</h3>
+        <div class="flex items-center justify-between mb-4">
+            <h2 class="text-3xl font-medium capitalize tracking-tight">our popular properties</h2>
+            <a href="#" class="capitalize font-medium text-lg text-slate-600">explore all <i
+                    class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="rouded-xl shadow-lg flex-auto w-full md:w-5/12 md:mr-5 lg:w-3/12 mb-5">
+                <img src="" data-src="./assets/images/popular-1.jpg" alt="properties" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-5">
+                        <h3 class="text-xl font-medium capitalize">Lorem ipsum</h3>
+                        <h4 class="text-lg font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 500000</h4>
+                    </div>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">
+                        <i class="fa-solid fa-location-dot font-bold"></i> Lorem, ipsum dolor.
+                    </p>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Error doloribus accusamus consequuntur
+                        porro, reiciendis consectetur cumque voluptatum nostrum reprehenderit dolor!</p>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="rouded-xl shadow-lg flex-auto w-full md:w-5/12 md:mr-5 lg:w-3/12 mb-5">
+                <img src="" data-src="./assets/images/popular-2.jpg" alt="properties" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-5">
+                        <h3 class="text-xl font-medium capitalize">Lorem ipsum</h3>
+                        <h4 class="text-lg font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 500000</h4>
+                    </div>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">
+                        <i class="fa-solid fa-location-dot font-bold"></i> Lorem, ipsum dolor.
+                    </p>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Error doloribus accusamus consequuntur
+                        porro, reiciendis consectetur cumque voluptatum nostrum reprehenderit dolor!</p>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="rouded-xl shadow-lg flex-auto w-full md:w-5/12 md:mr-5 lg:w-3/12 mb-5">
+                <img src="" data-src="./assets/images/popular-3.jpg" alt="properties" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-5">
+                        <h3 class="text-xl font-medium capitalize">Lorem ipsum</h3>
+                        <h4 class="text-lg font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 500000</h4>
+                    </div>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">
+                        <i class="fa-solid fa-location-dot font-bold"></i> Lorem, ipsum dolor.
+                    </p>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Error doloribus accusamus consequuntur
+                        porro, reiciendis consectetur cumque voluptatum nostrum reprehenderit dolor!</p>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== end popular properties section ====================-->
+
+    <!--==================== start featured properties section ====================-->
+    <section id="feature" class="container px-10 mx-auto mt-10 box">
+        <h3 class="text-lg font-bold uppercase mb-4">&HorizontalLine; featured</h3>
+        <h2 class="text-3xl font-medium capitalize tracking-tight mb-5">our featured properties</h2>
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="flex-auto w-full lg:w-2/5 lg:mr-5 mb-4 lg:h-[500px]">
+                <img src="" data-src="./assets/images/feature.jpg" alt="featured"
+                    class="h-full w-4/5 mx-auto rounded-xl lg:w-full">
+            </div>
+            <div class="flex-auto w-full lg:w-2/5 lg:mr-5 flex items-center justify-between flex-wrap">
+                <div class="flex-auto w-2/5 mr-5 shadow-2xl p-5 mb-5">
+                    <i class="fa-solid fa-money-bill text-white bg-blue-500 p-3 rounded-md mb-3"></i>
+                    <h3 class="text-xl font-medium capitalize mb-3">tax benefits</h3>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Id hic veniam esse ratione! Atque,
+                        officiis.</p>
+                </div>
+                <div class="flex-auto w-2/5 mr-5 shadow-2xl p-5 mb-5">
+                    <i class="fa-solid fa-bell-concierge text-white bg-blue-500 p-3 rounded-md mb-3"></i>
+                    <h3 class="text-xl font-medium capitalize mb-3">24x7 service</h3>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Id hic veniam esse ratione! Atque,
+                        officiis.</p>
+                </div>
+                <div class="flex-auto w-2/5 mr-5 shadow-2xl p-5 mb-5">
+                    <i class="fa-solid fa-house-chimney text-white bg-blue-500 p-3 rounded-md mb-3"></i>
+                    <h3 class="text-xl font-medium capitalize mb-3">modern design</h3>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Id hic veniam esse ratione! Atque,
+                        officiis.</p>
+                </div>
+                <div class="flex-auto w-2/5 mr-5 shadow-2xl p-5 mb-5">
+                    <i class="fa-brands fa-android text-white bg-blue-500 p-3 rounded-md mb-3"></i>
+                    <h3 class="text-xl font-medium capitalize mb-3">with ai assisted</h3>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Id hic veniam esse ratione! Atque,
+                        officiis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== end featured properties section ====================-->
+
+    <!--==================== start category section ====================-->
+    <section class="container px-10 mx-auto mt-10 box">
+        <h3 class="text-lg font-bold uppercase mb-4">&HorizontalLine; category</h3>
+        <h2 class="text-3xl font-medium capitalize tracking-tight mb-5">property category</h2>
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-2/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/category-1.jpg" alt="properties" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-5">
+                        <h3 class="text-xl font-medium capitalize">Lorem ipsum</h3>
+                        <h4 class="text-lg font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 500000</h4>
+                    </div>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">
+                        <i class="fa-solid fa-location-dot font-bold"></i> Lorem, ipsum dolor.
+                    </p>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Error doloribus accusamus consequuntur
+                        porro, reiciendis consectetur cumque voluptatum nostrum reprehenderit dolor!</p>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-2/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/category-2.jpg" alt="properties" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-5">
+                        <h3 class="text-xl font-medium capitalize">Lorem ipsum</h3>
+                        <h4 class="text-lg font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 500000</h4>
+                    </div>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">
+                        <i class="fa-solid fa-location-dot font-bold"></i> Lorem, ipsum dolor.
+                    </p>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Error doloribus accusamus consequuntur
+                        porro, reiciendis consectetur cumque voluptatum nostrum reprehenderit dolor!</p>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-2/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/category-3.jpg" alt="properties" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-5">
+                        <h3 class="text-xl font-medium capitalize">Lorem ipsum</h3>
+                        <h4 class="text-lg font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 500000</h4>
+                    </div>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">
+                        <i class="fa-solid fa-location-dot font-bold"></i> Lorem, ipsum dolor.
+                    </p>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Error doloribus accusamus consequuntur
+                        porro, reiciendis consectetur cumque voluptatum nostrum reprehenderit dolor!</p>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-2/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/category-4.jpg" alt="properties" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-5">
+                        <h3 class="text-xl font-medium capitalize">Lorem ipsum</h3>
+                        <h4 class="text-lg font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 500000</h4>
+                    </div>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">
+                        <i class="fa-solid fa-location-dot font-bold"></i> Lorem, ipsum dolor.
+                    </p>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Error doloribus accusamus consequuntur
+                        porro, reiciendis consectetur cumque voluptatum nostrum reprehenderit dolor!</p>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== end category section ====================-->
+
+    <!--==================== start blog section ====================-->
+    <section id="blog" class="container px-10 mx-auto mt-10 box">
+        <h3 class="text-lg font-bold uppercase mb-4">&HorizontalLine; blog</h3>
+        <div class="flex items-center justify-between mb-4">
+            <h2 class="text-3xl font-medium capitalize tracking-tight">our latest blog</h2>
+            <a href="#" class="capitalize font-medium text-lg text-slate-600">explore all <i
+                    class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-3/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/blog-1.jpg" alt="blog" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Lorem ipsum dolor</h3>
+                    <div class="flex items-center justify-between">
+                        <p class="text-sm font-light leading-6 mb-3 lg:font-medium capitalize">22k views</p>
+                        <p class="text-sm font-light leading-6 mb-3 lg:font-medium capitalize">post 2 hours ago</p>
+                    </div>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-3/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/blog-2.jpg" alt="blog" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Lorem ipsum dolor</h3>
+                    <div class="flex items-center justify-between">
+                        <p class="text-sm font-light leading-6 mb-3 lg:font-medium capitalize">22k views</p>
+                        <p class="text-sm font-light leading-6 mb-3 lg:font-medium capitalize">post 2 hours ago</p>
+                    </div>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 lg:w-3/12 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/blog-3.jpg" alt="blog" class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <h3 class="text-xl font-medium capitalize mb-3">Lorem ipsum dolor</h3>
+                    <div class="flex items-center justify-between">
+                        <p class="text-sm font-light leading-6 mb-3 lg:font-medium capitalize">22k views</p>
+                        <p class="text-sm font-light leading-6 mb-3 lg:font-medium capitalize">post 2 hours ago</p>
+                    </div>
+                    <button class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== end blog section ====================-->
+
+    <!--==================== start contact section ====================-->
+    <section id="contact" class="container px-10 mx-auto mt-10 box">
+        <h3 class="text-lg font-bold uppercase mb-4">&HorizontalLine; contact</h3>
+        <h2 class="text-3xl font-medium capitalize tracking-tight mb-4">contact us</h2>
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 mb-5">
+                <img src="" data-src="./assets/images/contact.jpg" alt="contact" class="h-64 w-full rounded-xl">
+            </div>
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 mb-5">
+                <form action="#" class="shadow-xl rounded-2xl p-5">
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="enter your name"
+                            class="w-full p-2 mb-3 rounded-lg text-black placeholder:text-slate-800 placeholder:capitalize outline-0 border border-blue-500 focus:ring-4 focus:ring-blue-200">
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="enter your email"
+                            class="w-full p-2 mb-3 rounded-lg text-black placeholder:text-slate-800 placeholder:capitalize outline-0 border border-blue-500 focus:ring-4 focus:ring-blue-200">
+                    </div>
+                    <div>
+                        <textarea name="message" id="message" placeholder="enter your message"
+                            class="w-full p-2 mb-3 rounded-lg text-black placeholder:text-slate-800 placeholder:capitalize outline-0 border border-blue-500 focus:ring-4 focus:ring-blue-200"></textarea>
+                    </div>
+                    <button class="btn">send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--==================== end contact section ====================-->
+
+    <!--==================== start testimonial section ====================-->
+    <section class="container px-10 mx-auto mt-10 box">
+        <h3 class="text-lg font-bold uppercase mb-4">&HorizontalLine; testimonial</h3>
+        <div class="flex items-center justify-between mb-4">
+            <h2 class="text-3xl font-medium capitalize tracking-tight">what our clients say</h2>
+            <a href="#" class="capitalize font-medium text-lg text-slate-600">explore all <i
+                    class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+        <div class="flex items-center justify-between flex-wrap">
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/testimonial-1.jpg" alt="testimonial"
+                    class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <div class="flex items-center justify-between flex-wrap">
+                        <h3 class="text-xl font-medium capitalize mb-3">John Doe</h3>
+                        <div class="text-amber-600">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Natus eos vel eius tempore itaque omnis
+                        totam, maiores ipsum quos commodi est. Reprehenderit eaque voluptatem, magnam amet mollitia
+                        voluptates architecto libero.</p>
+                </div>
+            </div>
+            <div class="flex-auto w-full md:w-5/12 md:mr-5 mb-5 shadow-lg rounded-xl">
+                <img src="" data-src="./assets/images/testimonial-2.jpg" alt="testimonial"
+                    class="h-64 w-full rounded-xl">
+                <div class="p-5">
+                    <div class="flex items-center justify-between flex-wrap">
+                        <h3 class="text-xl font-medium capitalize mb-3">Jane Dae</h3>
+                        <div class="text-amber-700">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-sm font-light leading-6 mb-3 lg:font-medium">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Natus eos vel eius tempore itaque omnis
+                        totam, maiores ipsum quos commodi est. Reprehenderit eaque voluptatem, magnam amet mollitia
+                        voluptates architecto libero.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== end testimonial section ====================-->
+
+    <!--==================== start footer section ====================-->
+    <footer class="bg-blue-500 p-5 mt-10 box">
+        <div class="flex items-center justify-between flex-wrap container px-10 mx-auto">
+            <div class="flex-auto w-full md:w-3/12 md:mr-5 mb-5">
+                <div class="mb-3">
+                    <img src="" data-src="./assets/images/favicon-32x32.png" alt="logo" class="h-10 w-10 rounded-xl">
+                </div>
+                <p class="text-sm font-light leading-6 mb-3 lg:font-medium text-white">Lorem ipsum, dolor sit amet
+                    consectetur
+                    adipisicing elit. Cum nisi at atque perspiciatis velit quis.
+                    Aperiam veritatis dolore dolorem nulla consequatur excepturi debitis? Dolore, ducimus.</p>
+                <div class="flex items-center justify-around">
+                    <i class="fa-brands fa-facebook text-white text-2xl"></i>
+                    <i class="fa-brands fa-twitter text-white text-2xl"></i>
+                    <i class="fa-brands fa-square-instagram text-white text-2xl"></i>
+                    <i class="fa-brands fa-youtube text-white text-2xl"></i>
+                </div>
+            </div>
+            <div class="flex-auto w-full md:w-3/12 md:mr-5 mb-5">
+                <h2 class="text-xl font-bold capitalize mb-3 text-white">Important Link</h2>
+                <ul>
+                    <li class="mb-2"><a href="#home" class="text-sm leading-6 text-white capitalize">home</a></li>
+                    <li class="mb-2"><a href="#popular" class="text-sm leading-6 text-white capitalize">popular</a>
+                    </li>
+                    <li class="mb-2"><a href="#feature" class="text-sm leading-6 text-white capitalize">feature</a>
+                    </li>
+                    <li class="mb-2"><a href="#blog" class="text-sm leading-6 text-white capitalize">blog</a></li>
+                    <li class="mb-2"><a href="#contact" class="text-sm leading-6 text-white capitalize">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-auto w-full md:w-3/12 md:mr-5 mb-5">
+                <h2 class="text-xl font-bold capitalize mb-3 text-white">Support</h2>
+                <ul>
+                    <li class="mb-2"><a href="#" class="text-sm leading-6 text-white capitalize">help</a>
+                    </li>
+                    <li class="mb-2"><a href="#" class="text-sm leading-6 text-white capitalize">customer
+                            cariar</a>
+                    </li>
+                    <li class="mb-2"><a href="#" class="text-sm leading-6 text-white capitalize">blog</a>
+                    </li>
+                    <li class="mb-2"><a href="#" class="text-sm leading-6 text-white capitalize">locations</a></li>
+                    <li class="mb-2"><a href="#" class="text-sm leading-6 text-white capitalize">faq</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-blue-400 text-white p-5 text-center capitalize">
+        <p class="text-lg">create by sumanta ghosh &copy; 2022 all rights reserved</p>
+    </div>
+    <!--==================== end footer section ====================-->
+
+    <!--==================== start go top button ====================-->
+    <button id="topBtn"
+        class="fixed right-16 bottom-28 text-white bg-blue-700 font-medium rounded-full text-base capitalize px-4 py-3 transition-colors duration-500 ease-in-out hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+    <!--==================== end go top button ====================-->
+
+    <!--==================== add noscript ====================-->
+    <noscript>please enable JavaScript in your website.</noscript>
+
+    <!--==================== custom js ====================-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

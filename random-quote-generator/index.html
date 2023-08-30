@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fontawesome css cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <!-- normalize css cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <!-- css custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Random Quote Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <i class="fas fa-quote-left"></i>
+        <span class="quote" id="quote"></span>
+        <i class="fas fa-quote-right"></i>
+      </h1>
+      <p class="author" id="author"></p>
+      <hr />
+      <div class="buttons">
+        <a
+          class="twitter"
+          id="tweet"
+          data-size="large"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <button class="next" onclick="getNewQuote()">Next quote</button>
+      </div>
+    </div>
+
+    <!-- custom js cdn -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+/*==================== set css variables ====================*/
+:root {
+  --color-1: rgb(255, 153, 0);
+  --color-1-alt: rgb(220, 139, 18);
+  --color-2: rgb(69, 130, 255);
+  --color-3: rgb(204, 204, 204);
+  --color-4: rgb(47, 48, 50);
+}
+
+/*==================== utility styles ====================*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*==================== button ====================*/
+.main-btn {
+  background: var(--color-1);
+  border: none;
+  display: inline-block;
+}
+.main-btn:hover,
+.main-btn:focus {
+  background: var(--color-1-alt);
+  border-color: transparent !important;
+  box-shadow: initial;
+}
+
+/*==================== navbar section ====================*/
+.nav-item {
+  margin-left: 10px;
+}
+.nav-link {
+  border-bottom: 2px solid transparent;
+}
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-1) !important;
+  border-bottom: 2px solid var(--color-1);
+}
+
+/*==================== hero section ====================*/
+.hero {
+  background-color: var(--color-3);
+  min-height: 80vh;
+}
+.hero-image {
+  height: 80vh;
+  width: 100%;
+}
+
+/*==================== about us section ====================*/
+.about-box {
+  transition: all 0.7s ease-in-out;
+}
+.about-box:hover,
+.about-box:focus {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+/*==================== service section ====================*/
+.service {
+  background-color: var(--color-3);
+}
+.card {
+  margin-bottom: 20px;
+}
+.card img {
+  height: 200px;
+}
+
+/*==================== client section ====================*/
+.client {
+  background-color: var(--color-2);
+}
+.client-image {
+  height: 200px;
+  width: 100%;
+}
+
+/*==================== blog section ====================*/
+.blog {
+  background-color: var(--color-3);
+}
+
+/*==================== footer section ====================*/
+.footer {
+  background-color: var(--color-4);
+}
+.footer-bottom {
+  height: 50px;
+  border-top: 2px solid var(--color-1);
+}
+
+/*==================== go top button section ====================*/
+#topBtn {
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  padding: 10px 16px;
+  font-weight: bold;
+  color: white;
+  background: var(--color-1);
+  border-radius: 100%;
+  transition: all 0.7s ease-in-out;
+  border: none;
+  outline: none;
+  font-size: 32px;
+}
+#topBtn:hover,
+#topBtn:focus {
+  background: var(--color-1-alt);
+}
+
+/*==================== add animation ====================*/
+.box {
+  opacity: 0;
+  transform: translateY(150px);
+  transition: all 0.7s ease-in-out;
+}
+.box.show {
+  opacity: 1;
+  transform: translateY(0);
+}

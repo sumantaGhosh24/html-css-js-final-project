@@ -1,0 +1,77 @@
+/*==================== set css variables ====================*/
+:root {
+  --color-1: rgb(13, 110, 253);
+  --color-2: rgb(241, 237, 253);
+}
+
+/*==================== utility classes ====================*/
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.sub-heading {
+  background: var(--color-2);
+  color: var(--color-1);
+  width: 40%;
+}
+
+/*==================== navbar and hero section ====================*/
+.header {
+  background-color: var(--color-2);
+  height: 100vh;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-1);
+}
+.hero-sub-heading {
+  background: rgb(255, 255, 255);
+  color: var(--color-1);
+  width: 50%;
+}
+.hero-heading span {
+  color: var(--color-1);
+}
+.hero-form input {
+  width: 60%;
+}
+.hero-form button {
+  width: 40%;
+}
+.hero-image {
+  height: 70vh;
+}
+
+/*==================== footer section ====================*/
+.footer-bottom {
+  height: 50px;
+  border-top: 2px solid var(--color-2);
+}
+
+/*==================== go top button section ====================*/
+#topBtn {
+  background: var(--color-1);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 12px 16px;
+  border-radius: 100%;
+  position: fixed;
+  font-size: 32px;
+  right: 50px;
+  bottom: 100px;
+  border: none;
+  outline: none;
+}
+
+/*==================== add animation ====================*/
+.box {
+  opacity: 0;
+  transform: translateY(150px);
+  transition: all 0.7s ease-in-out;
+}
+.box.show {
+  opacity: 1;
+  transform: translateY(0);
+}
